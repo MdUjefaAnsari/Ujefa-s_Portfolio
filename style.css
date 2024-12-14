@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: rgb(17, 104, 171);
 }
 
 html {
@@ -206,14 +207,23 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-
+#socials-container .icon {
+    cursor: pointer;
+    height: 2rem;
+    padding: 2px 2px;
+    border-radius: 50%;
+    background-color:  rgb(109, 192, 255);
+    transition: all 0.1s ease-out;
+  }
+#socials-container:hover .icon:hover{
+    outline: 2px solid rgb(0, 94, 69);
+}
 /* ICONS */
 
 .icon {
   cursor: pointer;
   height: 2rem;
 }
-
 /* BUTTONS */
 
 .btn-container {
@@ -292,6 +302,7 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  border-radius: 50%;
 }
 
 .details-container {
