@@ -176,6 +176,10 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.section__pic-container img{
+  border-radius: 100px;
+  box-shadow: 2px 2px 1px 2px rgb(42, 43, 41);
+}
 
 
 .section__text {
